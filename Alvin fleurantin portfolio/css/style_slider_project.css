@@ -1,0 +1,1832 @@
+/* ---------------------------------- bnp paribas -----------------------------*/
+/* ---------------------------------- bnp paribas -----------------------------*/
+/* ---------------------------------- bnp paribas -----------------------------*/
+
+.article_container,.article_container2{
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80vw;
+    height: 80%;
+    box-shadow: 5px 19px 38px rgba(0,0,0,.3), 0 1px 12px rgba(0,0,0,.22);
+    /*----------default project  background color--------*/
+    /*the first page*/
+    background: #d1d1d1;
+
+    /*add a vertical scrollbar to my div automatically?*/
+    float:left;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+
+
+/*Change the height and width to max-height and max-width. The image won't be any bigger than it's parent.*/
+.well img {
+    max-height: 100%;
+    max-width:100%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+p,h1,h2,h3{
+    -o-user-select: none;
+    user-select: none;
+}
+
+body{
+    cursor: default;
+    color:white;
+    /*overflow-y: auto;*/
+}
+
+/*############################ SCROLLBAR #######################*/
+/*width of the scrollbar*/
+::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+    top:0px;
+}
+/*same color(by default)*/
+::-webkit-scrollbar-thumb {
+    background: #f4c134;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+/*same color(on hover)*/
+::-webkit-scrollbar-thumb:hover {
+    background: #f4c134;
+}
+/*same color (on click)*/
+::-webkit-scrollbar-thumb:active {
+    background: #f4c134;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+    background: transparent;
+}
+::-webkit-scrollbar-track:active {
+    background: transparent;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+body{
+    /* stop-highlighting-of-a-X-element-when-double-clicking-on (text) */
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*<!-- BACKGROUND --><!-- BACKGROUND --> BNP.PARIBAS <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+.skewed-bg-bnp-paribas {
+    padding: 100px 0;
+    -webkit-transform: skew(0deg, 30deg);/*skew(Xdeg, Ydeg)*/
+    transform: skew(0deg, 30deg);/*skew(Xdeg, Ydeg)*/
+    /*margin-top: -300px;*/
+
+}
+
+#blue-container-bnp-paribas {
+    background-color: #6caaf4;
+    position: fixed;
+    padding-bottom:850%;
+    width:100%;
+}
+
+
+#pink-container-bnp-paribas {
+    background-color: #ffb9cf;
+    position: fixed;
+    margin-top:130%;
+    padding-bottom:90%;
+    width:100%;
+}
+
+
+#green-container-bnp-paribas {
+    background-color: #a1e7cf;
+    position: fixed;
+    margin-top:100%;
+    padding-bottom:60%;
+    width:100%;
+}
+
+/*<!-- BACKGROUND --><!-- BACKGROUND -->  BNP.PARIBAS <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+/*<!-- Element position -->*/
+
+/*<!-- parallax-bg-1-bnp-paribas -->*/
+#parallax-bg-1-bnp-paribas{
+    position: absolute;
+
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-1-bnp-paribas-row1{
+
+}
+/*---Image ou gif*/
+#iPhone5sbnp1{
+    margin-top:3%;
+    max-width:20%;
+}
+
+/*--------------- row1col1 -------------*/
+#parallax-bg-1-bnp-paribas-row1col1{
+
+
+}
+
+/*--------------- row2 -------------*/
+#parallax-bg-1-bnp-paribas-row2{
+    margin-left: 9%;
+    margin-top: 35%;
+
+}
+/*---Image ou gif*/
+#logo20couleur{
+    width: 170px;
+
+}
+
+/*--------------- row2col2 -------------*/
+#parallax-bg-1-bnp-paribas-row2col2{
+
+
+}
+
+/*---Image ou gif*/
+#logonoiretblanc{
+    width: 170px;
+
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-1-bnp-paribas-row3{
+    margin:15%;
+
+}
+
+
+/*--------------- row3col1 -------------*/
+#parallax-bg-1-bnp-paribas-row3col1{
+
+
+}
+
+/*---Image ou gif*/
+#Wish_Bnp_03{
+    max-width:124px;
+
+}
+
+/*--------------- row3col2 -------------*/
+#parallax-bg-1-bnp-paribas-row3col2{
+
+
+}
+
+/*---Image ou gif*/
+#Wish_Bnp_04{
+    max-width:124px;
+
+}
+/*--------------- row3col3 -------------*/
+#parallax-bg-1-bnp-paribas-row3col3{
+
+
+}
+
+/*---Image ou gif*/
+#Wish_Bnp_05{
+    max-width:124px;
+
+}
+
+/*--------------- row4 ------------*/
+#parallax-bg-1-bnp-paribas-row4{
+    margin-top:15%;
+
+
+}
+
+/*--------------- row4col1 ------------*/
+#parallax-bg-1-bnp-paribas-row4col1{
+
+
+}
+
+/*---Image ou gif*/
+#iPhone5sbnp3{
+    /*max-width:70%;*/
+    max-width:130px;
+
+}
+
+/*--------------- row5 ------------*/
+#parallax-bg-1-bnp-paribas-row5{
+
+    margin-top:23%;
+
+}
+
+/*--------------- row5col1 -----------*/
+#parallax-bg-1-bnp-paribas-row5col1{
+
+
+}
+
+/*---Image ou gif*/
+#iPhone5sbnp4{
+    /*max-width:70%;*/
+    max-width:290px;
+}
+
+/*--------------- row6 ------------*/
+#parallax-bg-1-bnp-paribas-row6{
+
+    margin-top:15%;
+}
+
+/*--------------- row6col1 ------------*/
+#parallax-bg-1-bnp-paribas-row6col1{
+
+
+}
+
+/*---Image ou gif*/
+#iPhone5sbnp5{
+    max-width:130px;
+
+}
+
+
+
+/*<!-- parallax-bg-2-bnp-paribas -->*/
+
+#parallax-bg-2-bnp-paribas{
+    position: absolute;
+
+}
+/*--------------- row1 ------------*/
+#parallax-bg-2-bnp-paribas-row1{
+
+
+}
+/*--------------- row1col1 ------------*/
+#parallax-bg-2-bnp-paribas-row1col1{
+
+    margin-left: 10%;
+
+}
+
+/*--------------- row2 ------------*/
+#parallax-bg-2-bnp-paribas-row2{
+    width: 110%;
+    margin-left: 23%;
+    margin-top: 20%;
+}
+
+/*--------------- row2col1 ------------*/
+#parallax-bg-2-bnp-paribas-row2col1{
+
+
+}
+/*--------------- row2col2 ------------*/
+#parallax-bg-2-bnp-paribas-row2col2{
+    text-align: right;
+
+}
+
+/*--------------- row3 ------------*/
+#parallax-bg-2-bnp-paribas-row3{
+    margin-top: 20%;
+
+
+}
+
+/*--------------- row3col1 ------------*/
+#parallax-bg-2-bnp-paribas-row3col1{
+    margin-left:57%;
+    text-align: right;
+
+}
+
+/*--------------- row4 ------------*/
+#parallax-bg-2-bnp-paribas-row4{
+
+    margin-top:50%;
+}
+
+/*--------------- row4col1 ------------*/
+#parallax-bg-2-bnp-paribas-row4col1{
+    margin-left:50%;
+    text-align: right;
+
+
+}
+
+/*--------------- row5 ------------*/
+#parallax-bg-2-bnp-paribas-row5{
+
+    padding-top:50%;
+}
+
+/*--------------- row5col1 ------------*/
+#parallax-bg-2-bnp-paribas-row5col1{
+    margin-left:10%;
+
+}
+
+/*--------------- row6 ------------*/
+#parallax-bg-2-bnp-paribas-row6{
+
+    margin-top:20%;
+}
+
+/*--------------- row6col1 ------------*/
+#parallax-bg-2-bnp-paribas-row6col1{
+    margin-left:65%;
+    text-align: right;
+
+
+}
+
+/*--------------- row7 ------------*/
+#parallax-bg-2-bnp-paribas-row7{
+    margin-top:150%;
+
+}
+
+/*--------------- row7col1 ------------*/
+#parallax-bg-2-bnp-paribas-row7col1{
+    margin-left:65%;
+    text-align: right;
+
+}
+
+/*<!-- Element position -->*/
+
+
+
+@media only screen and (min-device-width :300px) and (max-device-width :1024px) {
+
+    .skewed-bg-bnp-paribas {
+        padding: 100px 0;
+        -webkit-transform: skew(0deg, 20deg);/*skew(Xdeg, Ydeg)*/
+        transform: skew(0deg, 20deg);/*skew(Xdeg, Ydeg)*/
+        /*margin-top: -300px;*/
+
+    }
+
+    #blue-container-bnp-paribas {
+        background-color: #6caaf4;
+        position: fixed;
+        padding-bottom:950%;
+        width:100%;
+    }
+
+
+    #pink-container-bnp-paribas {
+        background-color: #ffb9cf;
+        position: fixed;
+        margin-top:70%;
+        padding-bottom:70%;
+        width:100%;
+    }
+
+
+    #green-container-bnp-paribas {
+        background-color: #a1e7cf;
+        position: fixed;
+        margin-top:50%;
+        padding-bottom:70%;
+        width:100%;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 150%;
+        margin-bottom: 0;
+    }
+}
+
+
+.rectangle1 {
+    width: 70%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    /*alpha*/
+    background-color: rgba(55, 55, 55, 0.1);
+    margin-top: 3% ;
+
+}
+
+.rectangle2 {
+    width: 70%;
+    height: 5%;
+    margin-top: 5% ;
+    background-color: rgb(55, 55, 55);
+    /*alpha*/
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+.rectangle3 {
+    width: 70%;
+    height: 5%;
+    background-color: rgb(55, 55, 55);
+    /*alpha*/
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+
+#rectangle_white {
+    margin-left: 25%;
+    width: 60px;
+    height: 10px;
+    background: white;
+}
+
+
+@font-face {
+    font-family: "italic2";
+    src: url('font/Open_Sans/OpenSans-LightItalic.ttf');
+
+}
+
+
+@font-face {
+    font-family: "bold1";
+    src: url('font/Open_Sans/OpenSans-SemiBold.ttf');
+
+}
+h4{
+    font-family: "italic2", Helvetica, Arial, sans-serif;
+}
+
+
+p{
+    font-family: "bold1", Helvetica, Arial, sans-serif;
+
+}
+/*Use a white space to match all descendants of an element:*/
+.rectangle1 *{
+    margin-left:5%;
+}
+
+/*----------------------- logo ---------------------------------*/
+
+
+
+/*<!-- BACKGROUND --><!-- BACKGROUND --> LOGO <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+.skewed-bg-logo {
+    -webkit-transform: skew(0deg, 30deg);/*skew(Xdeg, Ydeg)*/
+    transform: skew(0deg, 30deg);/*skew(Xdeg, Ydeg)*/
+
+}
+
+#grey-container-logo{
+    background-color: #d1d1d1;
+    position: fixed;
+    padding-bottom:150%;
+    width:100%;
+}
+
+#red-container-logo{
+    background-color: #f5b6b0;
+    position: fixed;
+    margin-top:80%;
+    padding-bottom:80%;
+    width:100%;
+}
+
+#green-container-logo{
+    background-color: #cdf5da;
+    position: fixed;
+    margin-top:128%;
+    padding-bottom:180%;
+    width:100%;
+}
+@media only screen and (min-device-width :200px) and (max-device-width :900px) {
+
+    #grey-container-logo{
+        background-color: #d1d1d1;
+        position: fixed;
+        padding-bottom:150%;
+        width:100%;
+    }
+
+    #red-container-logo{
+        background-color: #f5b6b0;
+        position: fixed;
+        margin-top:100%;
+        padding-bottom:80%;
+        width:100%;
+    }
+
+    #green-container-logo{
+        background-color: #cdf5da;
+        position: fixed;
+        margin-top:150%;
+        padding-bottom:210%;
+        width:100%;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 150%;
+        margin-bottom: 0;
+    }
+}
+/*<!-- BACKGROUND --><!-- BACKGROUND --> LOGO <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+/*<!-- Element position -->*/
+
+/*<!-- parallax-bg-1-bnp-paribas -->*/
+#parallax-bg-1-logo{
+    position: absolute;
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-1-logo-row1{
+
+}
+/*--------------- row1col1 -------------*/
+#parallax-bg-1-logo-row1col1{
+
+}
+
+/*Images ou gif*/
+#iPhone5slogo1{
+    max-width:150px;
+}
+
+/*--------------- row2 -------------*/
+#parallax-bg-1-logo-row2{
+    margin-top: 11%;
+}
+/*--------------- row2col1 -------------*/
+#parallax-bg-1-logo-row2col1{
+
+}
+
+/*Images ou gif*/
+#Mackbook-mayame{
+    max-width:90%;
+
+}
+
+/*--------------- row2col2 -------------*/
+#parallax-bg-1-logo-row2col2{
+    margin-left: 10%;
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-1-logo-row3{
+    margin-top:30%;
+}
+
+
+
+/*--------------- row3col11-------------*/
+#parallax-bg-1-logo-row3col1{
+
+}
+
+/*Images ou gif*/
+#logo_initialem{
+    max-width:70%;
+
+}
+
+/*--------------- row3col2-------------*/
+#parallax-bg-1-logo-row3col2{
+
+}
+/*Images ou gif*/
+#ipad_initialem{
+    max-width:150%;
+}
+/*--------------- row4 -------------*/
+#parallax-bg-1-logo-row4{
+    margin-top:8%;
+}
+
+#parallax-bg-1-logo-row4col1{
+
+}
+
+#tenue-a-la-bonheur{
+    margin-left:10%;
+    max-width:80%;
+}
+
+/*<!-- parallax-bg-2-logo -->*/
+#parallax-bg-2-logo{
+    position: absolute;
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-2-logo-row1{
+
+}
+
+/*--------------- row1col1 -------------*/
+#parallax-bg-2-logo-row1col1{
+    margin-left: 10%;
+}
+
+/*--------------- row2 -------------*/
+#parallax-bg-2-logo-row2{
+    margin-top: 30%;
+}
+
+/*--------------- row2col1 -------------*/
+#parallax-bg-2-logo-row2col1{
+    text-align: right;
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-2-logo-row3{
+    margin-top: 70%;
+}
+/*--------------- row3col1 -------------*/
+#parallax-bg-2-logo-row3col1{
+    text-align: left;
+
+
+}
+/*--------------- row4 -------------*/
+#parallax-bg-2-logo-row4{
+    margin-top: 35%;
+}
+/*--------------- row4col1 -------------*/
+#parallax-bg-2-logo-row4col1{
+    text-align: right;
+
+}
+/*--------------- row5 -------------*/
+#parallax-bg-2-logo-row5{
+
+    margin-top: 20%;
+}
+/*--------------- row5col1 -------------*/
+#parallax-bg-2-logo-row5col1{
+    text-align: right;
+
+}
+
+/*<!-- parallax-bg-3-logo -->*/
+#parallax-bg-3-logo{
+    position: absolute;
+}
+
+
+
+
+.circle_logo {
+    width: 180px;
+    height: 180px;
+    background: #f8f9ff;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    border-radius: 90px;
+    /*margin-left: 40% ;*/
+
+
+}
+
+
+.rectangle1_logo {
+    margin-top: 5%;
+    /*width: 35%;
+    height: 30%;*/
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.2);
+}
+
+.rectangle1_logo * {
+    margin-left: 5%;
+}
+
+
+#rectangle_white_logo {
+    margin-left:12%;
+    width: 60px;
+    height: 10px;
+    background: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 500%;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+
+
+@font-face {
+    font-family: "italic2";
+    src: url('font/Open_Sans/OpenSans-LightItalic.ttf');
+
+}
+
+
+@font-face {
+    font-family: "bold1";
+    src: url('font/Open_Sans/OpenSans-SemiBold.ttf');
+
+}
+h4{
+    font-family: "italic2", Helvetica, Arial, sans-serif;
+}
+
+
+p{
+    font-family: "bold1", Helvetica, Arial, sans-serif;
+
+}
+
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+/*----------------------- Sales app ---------------------------------*/
+
+
+
+/*<!-- BACKGROUND --><!-- BACKGROUND -->  Sales app<!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+
+.skewed-bg_sales_app{
+    -webkit-transform: skew(0deg, -30deg);/*skew(Xdeg, Ydeg)*/
+    transform: skew(0deg, -30deg);/*skew(Xdeg, Ydeg)*/
+
+}
+
+#white-container-sales-app{
+    background-color: #f8f9ff;
+    position: fixed;
+    padding-bottom:350%;
+    width:100%;
+}
+
+
+#cyan-container-sales-app{
+    background-color: #22d3c5;
+    position: fixed;
+    padding-bottom:70%;
+    width:100%;
+}
+
+#blue-container-sales-app{
+    background-color: #1d84b5;
+    position: fixed;
+    margin-top:40%;
+    padding-bottom:175%;
+    width:100%;
+
+}
+
+
+@media only screen and (min-device-width :300px) and (max-device-width :700px) {
+    #white-container-sales-app{
+        background-color: #f8f9ff;
+        position: fixed;
+        padding-bottom:660%;
+        width:100%;
+    }
+
+
+    #cyan-container-sales-app{
+        background-color: #22d3c5;
+        position: fixed;
+        padding-bottom:70%;
+        width:100%;
+    }
+
+    #blue-container-sales-app{
+        background-color: #1d84b5;
+        position: fixed;
+        margin-top:40%;
+        padding-bottom:180%;
+        width:100%;
+
+    }
+
+}
+
+
+/*<!-- BACKGROUND --><!-- BACKGROUND -->  BNP.PARIBAS <!-- BACKGROUND --><!-- BACKGROUND -->*/
+/*<!-- Element position -->*/
+
+/*<!-- parallax-bg-1-sales-app -->*/
+#parallax-bg-1-sales-app{
+    position: absolute;
+
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-1-sales-app-row1{
+    margin-top: 40px;
+
+}
+
+
+/*--------------- row1col1 -------------*/
+#parallax-bg-1-sales-app-row1col1{
+
+}
+/*Image ou gif*/
+#iPadsalesapp1{
+    max-width:300px;
+}
+/*--------------- row2 -------------*/
+#parallax-bg-1-sales-app-row2{
+    margin-top: 40%;
+
+}
+
+/*--------------- row2col1 -------------*/
+#parallax-bg-1-sales-app-row2col1{
+
+}
+
+/*Image ou gif */
+#iPadMinifacing{
+    max-width:80%;
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-1-sales-app-row3{
+    margin:20%;
+}
+
+
+/*--------------- row3col1 -------------*/
+#parallax-bg-1-sales-app-row3col1{
+
+}
+
+/*Image ou gif */
+#Mackbook-left-anglesalesapp{
+    max-width:170%;
+}
+/*--------------- row4 -------------*/
+#parallax-bg-1-sales-app-row4{
+    margin-top:10%;
+    margin-left:12%;
+
+}
+
+/*--------------- row4col1 -------------*/
+#parallax-bg-1-sales-app-row4col1{
+
+}
+
+/*----- Images ou gif ----*/
+#picto-interview{
+    margin-right:25%;
+    max-width:60%;
+
+}
+
+/*--------------- row4col2 -------------*/
+#parallax-bg-1-sales-app-row4col2{
+
+}
+
+/*----- Images ou gif ----*/
+#picto-20charte{
+    margin-right:10%;
+    margin-top:10%;
+    max-width:70%;
+
+}
+/*--------------- row4col3 -------------*/
+#parallax-bg-1-sales-app-row4col3{
+
+}
+
+/*Image ou gif*/
+#picto-question{
+    margin-right:25%;
+    max-width:50%;
+}
+
+
+/*--------------- row5 -------------*/
+#parallax-bg-1-sales-app-row5{
+    margin-top:30%;
+}
+
+/*--------------- row5col1 -------------*/
+#parallax-bg-1-sales-app-row5col1{
+
+}
+
+/*Image ou gif*/
+#iPhone5sblack-salesapps2{
+    margin-left:30%;
+    max-width:60%;
+
+}
+
+/*--------------- row6 -------------*/
+#parallax-bg-1-sales-app-row6{
+    margin-top:10%;
+    margin-bottom:30%;
+    margin-left:12%;
+
+}
+
+
+/*--------------- row6col1 -------------*/
+#parallax-bg-1-sales-app-row6col1{
+
+}
+
+/*Image ou gif*/
+#picto-information{
+    margin-right:45%;
+    max-width:15%;
+}
+
+/*--------------- row6col2 -------------*/
+#parallax-bg-1-sales-app-row6col2{
+
+}
+
+#picto-20charte2{
+    margin-top:10%;
+    margin-right:15%;
+    max-width:70%;
+}
+/*--------------- row6col3 -------------*/
+#parallax-bg-1-sales-app-row6col3{
+
+}
+
+#picto-picto{
+    margin-right:30%;
+    max-width:40%;
+}
+
+
+
+/*<!-- parallax-bg-2-bnp-paribas -->*/
+#parallax-bg-2-sales-app{
+    position: absolute;
+
+}
+
+/*---------------  row1 --------------- */
+#parallax-bg-2-sales-app-row1{
+    margin-left: 5%;
+
+}
+
+/*--------------- row1col1--------------- */
+#parallax-bg-2-sales-app-row1col1{
+
+}
+/*---------------  row2 --------------- */
+#parallax-bg-2-sales-app-row2{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+/*--------------- row2col1--------------- */
+#parallax-bg-2-sales-app-row2col1{
+    text-align: center;
+}
+
+/*---------------  row3 --------------- */
+#parallax-bg-2-sales-app-row3{
+    margin-top: 40%;
+
+}
+
+/*--------------- row2col1--------------- */
+#parallax-bg-2-sales-app-row3col1{
+    text-align: right;
+
+}
+
+/*---------------  row4 --------------- */
+#parallax-bg-2-sales-app-row4{
+    margin-top: 50%;
+}
+
+/*--------------- row4col1 --------------- */
+#parallax-bg-2-sales-app-row4col1{
+    text-align: right;
+
+}
+
+
+
+/*---------------  row5 --------------- */
+#parallax-bg-2-sales-app-row5{
+    margin-top: 75%;
+    margin-left: 8%;
+
+}
+
+/*--------------- row5col1 --------------- */
+#parallax-bg-2-sales-app-row5col1{
+    text-align: right;
+}
+/*--------------- row5col2 --------------- */
+#parallax-bg-2-sales-app-row5col2{
+    text-align: right;
+}
+/*--------------- row5col3 --------------- */
+#parallax-bg-2-sales-app-row5col3{
+    text-align: right;
+}
+
+/*---------------  row6 --------------- */
+#parallax-bg-2-sales-app-row6{
+    margin-top: 55%;
+}
+
+/*--------------- row6col1--------------- */
+#parallax-bg-2-sales-app-row6col1{
+    text-align: left;
+
+}
+
+/*---------------  row7 --------------- */
+#parallax-bg-2-sales-app-row7{
+    margin-top: 15%;
+    margin-left: 8%;
+    color:#1d84b5;
+
+}
+
+/*--------------- row7col1--------------- */
+#parallax-bg-2-sales-app-row7col1{
+    text-align: right;
+
+}
+
+
+/*--------------- row7col2--------------- */
+#parallax-bg-2-sales-app-row7col2{
+    text-align: right;
+
+}
+
+/*--------------- row7col3--------------- */
+#parallax-bg-2-sales-app-row7col3{
+    text-align: right;
+
+}
+
+
+
+/*<!-- Element position -->*/
+/*}*/
+
+
+
+.rectangle1_sales_app {
+    width: 60%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+.rectangle2_sales_app {
+    width: 90%;
+    height: 10%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+
+.circle_sales_app {
+    width: 160px;
+    height: 160px;
+    background: #281e14;
+    opacity:0.2 ;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+#rectangle_white_sales_app {
+    margin-left:12%;
+    width: 60px;
+    height: 10px;
+    background: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+
+@font-face {
+    font-family: "italic2";
+    src: url('font/Open_Sans/OpenSans-LightItalic.ttf');
+
+}
+
+
+@font-face {
+    font-family: "bold1";
+    src: url('font/Open_Sans/OpenSans-SemiBold.ttf');
+
+}
+h4{
+    font-family: "italic2", Helvetica, Arial, sans-serif;
+}
+
+
+p{
+    font-family: "bold1", Helvetica, Arial, sans-serif;
+
+}
+
+/*---------------------------------- SAT TV--------------------------------*/
+/*---------------------------------- SAT TV--------------------------------*/
+/*---------------------------------- SAT TV--------------------------------*/
+/*---------------------------------- SAT TV--------------------------------*/
+/*---------------------------------- SAT TV--------------------------------*/
+
+
+
+@media only screen and (min-device-width :700px) and (max-device-width :1424px) {
+
+    /*<!-- BACKGROUND --><!-- BACKGROUND --> SAT.TV <!-- BACKGROUND --><!-- BACKGROUND -->*/
+    .skewed-bg-sat-tv {
+        padding: 100px 0;
+        -webkit-transform: skew(0deg, 20deg);/*skew(Xdeg, Ydeg)*/
+        transform: skew(0deg, 30deg);/*skew(Xdeg, Ydeg)*/
+        margin-top: -300px;
+
+    }
+
+    #blue-container-sat-tv{
+        background-color:#17afe4;
+        position: fixed;
+        padding-bottom:120%;
+        width:100%;
+    }
+
+    #purple-container-sat-tv{
+        background-color:#9c95dc;
+        position:  fixed;
+        margin-top:80%;
+        padding-bottom:170%;
+        width:100%;
+    }
+
+    #pink-container-sat-tv{
+        background-color:#f5b0cb;
+        position:  fixed;
+        margin-top:150%;
+        padding-bottom:150%;
+        width:100%;
+    }
+
+}
+/*<!-- BACKGROUND --><!-- BACKGROUND --> SAT.TV <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+/*<!-- Element position -->*/
+
+/*<!-- parallax-bg-1-sat-tv -->*/
+#parallax-bg-1-sat-tv{
+    position: absolute;
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-1-sat-tv-row1{
+    margin-top: 10%;
+}
+/*--------------- row1col1 -------------*/
+#parallax-bg-1-sat-tv-row1col1{
+
+}
+
+/*Images ou gif*/
+#Macbooksattv1{
+    height:auto;
+    max-width:60%;
+
+}
+/*--------------- row2 -------------*/
+#parallax-bg-1-sat-tv-row2{
+    margin-top: 40%;
+}
+
+/*--------------- row2col1 -------------*/
+#parallax-bg-1-sat-tv-row2col1{
+
+
+}
+
+/*Images ou gif*/
+#iPadsattv1{
+    max-width:60%;
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-1-sat-tv-row3{
+    margin-top:0%;
+
+}
+/*--------------- row3col1 -------------*/
+#parallax-bg-1-sat-tv-row3col1{
+
+}
+
+/*Images ou gif*/
+#iPad-white2{
+    max-width:50%;
+}
+/*--------------- row4 -------------*/
+#parallax-bg-1-sat-tv-row4{
+    margin-top:10%;
+    margin-left:3%
+
+}
+/*--------------- row4col1 -------------*/
+#parallax-bg-1-sat-tv-row4col1{
+}
+
+/*Images ou gif*/
+#picto-information{
+    margin-top:5%;
+    margin-right:42%;
+    max-width:280px;
+}
+/*--------------- row4col2 -------------*/
+#parallax-bg-1-sat-tv-row4col2{
+
+}
+
+/*Images ou gif*/
+#picto_phone{
+    margin-top:5%;
+    margin-right:21%;
+    max-width:90px;
+
+}
+
+/*--------------- row4col3-------------*/
+#parallax-bg-1-sat-tv-row4col3{
+
+    margin-left:9%;
+}
+
+/*Images ou gif*/
+#picto_bras{
+    margin-right:30%;
+    max-width:280px;
+}
+/*--------------- row5 -------------*/
+#parallax-bg-1-sat-tv-row5{
+    margin-top:15%;
+
+}
+/*--------------- row5col1 -------------*/
+#parallax-bg-1-sat-tv-row5col1{
+
+
+}
+
+/*Images ou gif*/
+#iMac-facing3{
+    margin-left:15%;
+    max-width:350px;
+
+}
+
+/*<!-- parallax-bg-2-sat-tv -->*/
+#parallax-bg-2-sat-tv{
+    position: absolute;
+
+}
+
+/*---------- parallax-bg-2-sat-tv-row1 ---------*/
+/*--------------- row1 -------------*/
+#parallax-bg-2-sat-tv-row1{
+
+}
+/*--------------- row1col1 -------------*/
+#parallax-bg-2-sat-tv-row1col1{
+    margin-left: 10%;
+
+}
+
+/*--------------- row2 -------------*/
+#parallax-bg-2-sat-tv-row2{
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+/*--------------- row2col1 -------------*/
+#parallax-bg-2-sat-tv-row2col1{
+    text-align: center;
+
+}
+/*--------------- row3 -------------*/
+#parallax-bg-2-sat-tv-row3{
+    margin-top: 20%;
+
+}
+/*--------------- row3col1 -------------*/
+#parallax-bg-2-sat-tv-row3col1{
+    text-align: right;
+}
+
+/*--------------- row4 -------------*/
+#parallax-bg-2-sat-tv-row4{
+    margin-top: 35%;
+
+
+}
+/*--------------- row4col1 -------------*/
+#parallax-bg-2-sat-tv-row4col1{
+    text-align: left;
+}
+
+
+/*--------------- row5 -------------*/
+#parallax-bg-2-sat-tv-row5{
+    margin-top: 38%;
+    /*margin-left: 0%*/
+}
+/*--------------- row5col1 -------------*/
+#parallax-bg-2-sat-tv-row5col1{
+    text-align: center;
+}
+/*--------------- row5col2 -------------*/
+#parallax-bg-2-sat-tv-row5col2{
+    text-align: center;
+}
+/*--------------- row5col3 -------------*/
+#parallax-bg-2-sat-tv-row5col3{
+    text-align: center;
+}
+/*--------------- row5col1 -------------*/
+#parallax-bg-2-sat-tv-row6{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 8%;
+}
+
+/*--------------- row5col1 -------------*/
+#parallax-bg-2-sat-tv-row6col1{
+    text-align: right;
+}
+
+
+
+@media only screen and (min-device-width :300px)and (max-device-width :700px) {
+    /*<!-- BACKGROUND --><!-- BACKGROUND --> SAT.TV <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+    .skewed-bg-sat-tv {
+        padding: 100px 0;
+        -webkit-transform: skew(0deg, 20deg);/*skew(Xdeg, Ydeg)*/
+        transform: skew(0deg, 20deg);/*skew(Xdeg, Ydeg)*/
+        margin-top: -300px;
+
+    }
+
+    #blue-container-sat-tv{
+        background-color:#17afe4;
+        position:  fixed;
+        padding-bottom:150%;
+        width:100%;
+    }
+
+    #purple-container-sat-tv{
+        background-color:#9c95dc;
+        position:  fixed;
+        margin-top:100%;
+        padding-bottom:150%;
+        width:100%;
+    }
+
+    #pink-container-sat-tv{
+        background-color:#f5b0cb;
+        position:  fixed;
+        margin-top:250%;
+        padding-bottom:380%;
+        width:100%;
+    }
+
+}
+
+
+
+
+.rectangle1-sat-tv {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+.rectangle2-sat-tv {
+    width: 70%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+.circle-sat-tv {
+    width: 160px;
+    height: 160px;
+    background: #281e14;
+    opacity:0.2 ;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+
+#rectangle_white-sat-tv {
+    margin-left:12%;
+    width: 60px;
+    height: 10px;
+    background: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+@font-face {
+    font-family: "italic2";
+    src: url('font/Open_Sans/OpenSans-LightItalic.ttf');
+
+}
+
+
+@font-face {
+    font-family: "bold1";
+    src: url('font/Open_Sans/OpenSans-SemiBold.ttf');
+
+}
+h4{
+    font-family: "italic2", Helvetica, Arial, sans-serif;
+}
+
+
+p{
+    font-family: "bold1", Helvetica, Arial, sans-serif;
+
+}
+
+
+/*-------------------- WM&COM  ------------------------ */
+/*-------------------- WM&COM  ------------------------ */
+/*-------------------- WM&COM  ------------------------ */
+/*-------------------- WM&COM  ------------------------ */
+
+
+/*<!-- BACKGROUND --><!-- BACKGROUND --> WM&COM <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+#green-container-wm-com{
+    background-color: #8ad7da;
+    position: fixed;
+    padding-bottom:90%;
+    width:100%;
+}
+
+#orange-container-wm-com{
+    background-color: #f1c176;
+    position: fixed;
+    margin-top:80%;
+    padding-bottom:90%;
+    width:100%;
+
+}
+
+@media only screen and (min-device-width :300px) and (max-device-width :700px) {
+    /*<!-- BACKGROUND --><!-- BACKGROUND --> WM&COM <!-- BACKGROUND --><!-- BACKGROUND -->*/
+
+    #green-container-wm-com{
+        background-color: #8ad7da;
+        position: fixed;
+        padding-bottom:70%;
+        width:100%;
+    }
+
+    #orange-container-wm-com{
+        background-color: #f1c176;
+        position: fixed;
+        margin-top:70%;
+        padding-bottom:600%;
+        width:100%;
+
+    }
+
+    /*Image ou gif*/
+
+    #10ansdegénérationdigital{
+        max-width:70%;
+    }
+
+
+    /*Image ou gif*/
+    #princeW{
+        margin-left:15%;
+        max-width:60%;
+    }
+
+    /*Image ou gif*/
+    #mjackson{
+        max-width:60%;
+
+    }
+
+    /*Image ou gif*/
+    #markZ{
+        max-width:60%;
+    }
+
+    #kimk{
+        max-width:60%;
+
+    }
+
+    /*Image ou gif*/
+    #artist{
+        max-width:60%;
+    }
+
+
+}
+
+
+
+
+
+/*<!-- BACKGROUND --><!-- BACKGROUND --> WM&COM <!-- BACKGROUND --><!-- BACKGROUND -->*/
+/*<!-- Element position -->*/
+
+/*<!-- parallax-bg-1-wm-com -->*/
+#parallax-bg-1-wm-com{
+    position: absolute;
+
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-1-wm-com-row1{
+    margin-top: 40px;
+
+}
+
+/*--------------- row1col1 -------------*/
+#parallax-bg-1-wm-com-row1col1{
+
+}
+
+/*Image ou gif*/
+#iMacWebmarket{
+    height:auto;
+    max-width:40%;
+
+}
+/*--------------- row2 -------------*/
+#parallax-bg-1-wm-com-row2{
+    margin-top: 25%;
+
+}
+/*--------------- row2col1 -------------*/
+#parallax-bg-1-wm-com-row2col1{
+
+}
+
+/*Image ou gif*/
+#10ansdegénérationdigital{
+    max-width:10%;
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-1-wm-com-row3{
+    margin-top:15%;
+    margin-left:10%;
+}
+/*--------------- row3col1 -------------*/
+#parallax-bg-1-wm-com-row3col1{
+
+
+}
+
+/*Image ou gif*/
+#princeW{
+    margin-left:15%;
+    max-width:60%;
+}
+
+
+/*--------------- row3col2 -------------*/
+#parallax-bg-1-wm-com-row3col2{
+
+}
+
+/*Image ou gif*/
+#mjackson{
+    margin-left:15%;
+    max-width:60%;
+
+}
+
+/*--------------- row3col3 -------------*/
+#parallax-bg-1-wm-com-row3col3{
+
+}
+
+/*Image ou gif*/
+#markZ{
+    margin-left:15%;
+    max-width:60%;
+}
+/*--------------- row3col4 -------------*/
+#parallax-bg-1-wm-com-row3col3{
+
+}
+
+/*Image ou gif*/
+#kimk{
+    margin-left:15%;
+    max-width:60%;
+
+}
+/*--------------- row3col5 -------------*/
+#parallax-bg-1-wm-com-row3col3{
+
+}
+
+/*Image ou gif*/
+#artist{
+    margin-left:15%;
+    max-width:60%;
+}
+
+
+/*<!-- parallax-bg-2-wm-com -->*/
+#parallax-bg-2-wm-com{
+    position: absolute;
+
+}
+/*--------------- row1 -------------*/
+#parallax-bg-2-wm-com-row1{
+
+}
+
+/*--------------- row1col1 -------------*/
+#parallax-bg-2-wm-com-row1col1{
+    margin-left: 5%;
+}
+
+/*--------------- row1 -------------*/
+#parallax-bg-2-wm-com-row2{
+    margin-top: 3%;
+}
+/*--------------- row2col1 -------------*/
+#parallax-bg-2-wm-com-row2col1{
+    margin-left: 15%;
+    text-align: left;
+
+}
+
+/*--------------- row3 -------------*/
+#parallax-bg-2-wm-com-row3{
+    margin-top: 5%;
+
+}
+
+#parallax-bg-2-wm-com-row3col1{
+    text-align: right;
+
+}
+
+/*--------------- row4 -------------*/
+#parallax-bg-2-wm-com-row4{
+    margin-bottom:30%;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+
+/*--------------- row4col1 -------------*/
+#parallax-bg-2-wm-com-row4col1{
+    text-align: right;
+}
+
+/*--------------- row4col2 -------------*/
+#parallax-bg-2-wm-com-row4col2{
+    text-align: right;
+}
+
+/*--------------- row4col3 -------------*/
+#parallax-bg-2-wm-com-row4col3{
+    text-align: right;
+}
+
+/*--------------- row4col4 -------------*/
+#parallax-bg-2-wm-com-row4col4{
+    text-align: right;
+}
+
+/*--------------- row4col5 -------------*/
+#parallax-bg-2-wm-com-row4col5{
+    text-align: right;
+}
+
+
+
+.rectangle1_wm_com {
+    width: 80%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+.rectangle1_wm_com  * {
+    margin-left: 5%;
+}
+
+.rectangle2_wm_com {
+    width: 80%;
+    height: 30%;
+    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, 0.1);
+}
+
+#rectangle_white_wm_com {
+    margin-left: 5%;
+    width: 5%;
+    height: 10px;
+    background: white;
+}
+/*<!-- BACKGROUND --><!-- BACKGROUND --> WM&COM <!-- BACKGROUND --><!-- BACKGROUND -->*/
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+@font-face {
+    font-family: "italic2";
+    src: url('font/Open_Sans/OpenSans-LightItalic.ttf');
+
+}
+
+
+@font-face {
+    font-family: "bold1";
+    src: url('font/Open_Sans/OpenSans-SemiBold.ttf');
+
+}
+h4{
+    font-family: "italic2", Helvetica, Arial, sans-serif;
+}
+
+
+p{
+    font-family: "bold1", Helvetica, Arial, sans-serif;
+
+}

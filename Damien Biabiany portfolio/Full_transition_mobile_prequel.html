@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FFF_mobile</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Responsive-->
+		<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+		<style>
+
+ 			/*------------- Mobile prequel (CSS)-----------*/
+			 
+			body,html{
+				overflow: hidden;
+				
+			}
+
+			body {
+				font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;	
+                color:#d8b478 ;
+                
+			}
+			
+            #mobile-prequel {
+                font-size:30px;
+            }
+
+			#Images_column_mobile_prequel img{
+				position: fixed;
+				bottom:0;
+				left:15%;
+				padding:0;
+				width:195px;
+				height: 345px;
+			}
+
+
+
+			/*center*/
+			#wrapper_responsive {
+				width: 100%;
+				height: auto;
+
+			}
+
+			#wrapper_responsive > div {
+				margin: 40px auto;
+				overflow: hidden;
+				height: 100px;
+				width: 100%;
+				
+			}
+			
+			
+
+			#parent2_mobile_prequel > p {
+				position: absolute;
+				word-wrap: break-word;
+				text-align: center;
+				color: white;
+				/*Transparent*/
+				background-color: transparent;
+			}
+
+
+			#parent2_mobile_prequel {
+				background-color: transparent;
+            
+                
+
+			}
+
+			#parent2_mobile_prequel p {
+				left: 50%;
+				top: 20%;
+				width:100%;
+				padding: 20px;
+				transform: translate(-50%, -50%);
+				color:#d8b478 ;
+			}
+
+		    @font-face {
+				font-family: "Ma Super Fonte";
+				src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+
+			}
+ 
+            
+            /* media queries */
+            #mobile-prequel{
+                    visibility: hidden;
+                }     
+            
+            @media screen and (max-width: 799px) {
+                
+                #mobile-prequel{
+                    visibility: visible;
+                   
+                }
+                
+                body{
+                     background-image: url(Elements/Background_mobile.png);
+                }
+            }
+
+           /*------------- Mobile prequel (CSS)-----------*/
+		</style>
+	</head>
+    <body>
+        <div id="mobile-prequel" class="container-fluid">
+
+                <div  class="container-fluid">
+                    <div class="row">
+                        <div id="Images_column_mobile_prequel" class="col-md-12">
+                            <img src="Elements/Subject_Home.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="wrapper_responsive">
+                    <div id="parent2_mobile_prequel">
+                        <p class="Welcome_Responsive">BIENVENUE DANS MON BOOK</p>
+                    </div>
+
+                </div>
+         </div>
+    </body>
+</html>

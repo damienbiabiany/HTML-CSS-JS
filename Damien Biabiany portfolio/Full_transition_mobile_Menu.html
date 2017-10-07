@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FFF_mobile</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Responsive-->
+		<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+		<style>
+            
+            /*----------- Menu-Mobile (CSS)(start)---------------*/
+            @font-face {
+				font-family: "Ma Super Fonte";
+				src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+
+			}
+
+			body,html {
+				overflow: hidden;
+				
+			}
+            
+            #Menu_mobile {
+				font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+                background-color: transparent;
+				color:#d8b478;
+			}
+
+			.btn-mobile-menu {
+				width:30%;
+			}
+
+         
+            /*------------- media queries ---------------*/
+            #Menu_mobile{
+                    visibility: hidden;
+                    
+				 
+                }     
+            
+            @media screen and (max-width: 799px) {
+                
+                #Menu_mobile{
+                    visibility: visible;
+                    background-color: black;
+                }
+                
+                body{
+                     background-color: black;
+                }
+            }
+            /*----------- Menu-Mobile (CSS) (end)---------------*/      
+		</style>
+	</head>
+    <body>
+
+
+		<div  class="container-fluid" id="Menu_mobile" style="padding: 10%;">
+			<div  class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+                    <h2>DAMIEN BIABIANY</h2>
+					<p>DEVELOPPEUR FRONT</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 10%">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+				       sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+				       aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>
+				       ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+				       Duis aute irure dolor in reprehenderit in voluptate velit<br>
+                         Duis aute irure dolor in reprehenderit in voluptate velit<br>
+				    </p>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 8%">
+					<div   class="row" style="margin-top: 18%;margin-left: 0.5%;">
+
+						<button type="button" onclick="location.href='https://github.com/damienbiabiany'" class="btn btn-warning btn-inverse btn-mobile-menu" style="border-radius:0;margin-left: 0.5%;"><i class='fa fa-github'></i></button>
+						
+                        <button type="button" class="btn btn-warning btn-inverse btn-mobile-menu" style="border-radius:0;margin-left: 0.5%;"><i class='fa fa-envelope'></i></button>
+						
+                        <button type="button" onclick="location.href='https://www.linkedin.com/in/damien-biabiany-728245150/'" class="btn btn-warning btn-inverse btn-mobile-menu" style="border-radius:0;margin-left: 0.5%;"><i class='fa fa-linkedin'></i></button>
+
+
+
+					</div>
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-6" style="margin-top:15%;margin-left:25%;border-top-style: solid">
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+    </body>
+</html>

@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>DAMIEN BIABIANY BOOK</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Responsive-->
+		<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+		<style>
+
+            /*------------- Transition Final ((CSS) Desktop) -------------*/
+			body{
+				overflow: hidden;
+                overflow-x: hidden ;
+				background-color: transparent;
+				/* stop-highlighting-of-a-X-element-when-double-clicking-on (text) */
+				-o-user-select: none;
+				user-select: none;
+
+			}
+            
+            .modal {
+               -o-user-select: true;
+				user-select: true;
+  
+            }
+            
+            #modal-container{
+                background-color: azure;
+            }
+            
+            
+			
+            @font-face {
+			font-family: "Ma Super Fonte";
+			src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+  
+		    }
+
+            /*body*/
+		    #Desktop-size {
+			     font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+            
+		    }
+            
+
+			.navbar-nav>li:first-child{
+				border-bottom: 1px solid;
+                border-bottom-color:#d8b478 ;
+				width: 50px;
+				padding-top: 25px;
+			}
+
+            .nav{
+				color:white;
+			}
+
+			#Images_column_transition_final img{
+				position: fixed;
+				right:-21%;
+			}
+
+			#Welcome1_transition_final h1{
+                padding-top: 20%;
+				/* 10% de la largeur de mon viewport*/
+				font-size: 2vw;;
+
+			 }
+
+			#Welcome2_transition_final h1{
+				padding-top: 18%;
+				/* 10% de la largeur de mon viewport*/
+				font-size: 3vw;;
+				opacity: 0.5;
+
+			}
+
+			#Welcome1_transition_final {
+
+				color: #d8b478;
+				position:absolute;
+				text-align:center;
+				height: 100%;
+
+			}
+
+
+			#Welcome2_transition_final {
+
+				color: #d8b478;
+				position:absolute;
+				text-align:center;
+				height: 100%;
+
+			}
+
+
+
+			#competences1_transition_final{
+				margin-top: 10%;
+                /*width big boxes*/
+				width: 43%;
+				margin-left: 10%;
+				margin-right:50%;
+				border-style: solid;
+                border-width: 1px;
+				padding-bottom: 2%;
+                
+			}
+
+			.competences_transition_final {
+				height: 50px;
+                width: 70px;
+				background-color:transparent;
+                border-style: solid;
+                border-width: 1px;
+                color:#d8b478;
+                padding-left: 5px;
+                /*seperate grid*/
+                margin-top: 2%;
+			}
+
+			#ee{
+				font-size: 0.5em;
+			}
+
+			.btn-warning.btn-inverse {
+				color: #f0ad4e;
+				background-color: transparent;
+				border-color: #f0ad4e;
+			}
+
+			.btnwhite{
+				background-color: white;
+
+			}
+
+			#Welcome1_transition_final,#Welcome2_transition_final{
+			    opacity:1.0;
+			}
+
+			#sliding_left_transparent{
+				position: absolute;
+				background-color: transparent;
+				opacity: 1.0;
+				height:100%;
+				color: #d8b478;
+			}
+
+			#competences1_transition_final{
+				position: absolute;
+                color:#d8b478;
+                
+			}
+
+			#sliding_left{
+				position: absolute;
+				background-color: #000000;
+				opacity: 0.3;
+				width:0%;
+				height:100%;
+			}
+
+			.img-hor {
+				-moz-transform: scaleX(-1);
+				-o-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				transform: scaleX(-1);
+				-ms-filter: "FlipH";
+			}
+
+
+            .menu1 a{
+                background-color: red;
+            }
+            
+            .menu1:hover{
+                background-color: transparent;
+            }
+            
+            /*color on focus and on hover*/
+            .nav>li>a:focus, .nav>li>a:hover {
+				text-decoration: none;
+				background-color: transparent;
+            }
+            
+            /*nav text*/
+            .closeb,.menub {
+                color: #f0ad4e;
+                text-decoration: none;
+            }
+            
+
+            
+            /* ---------- media queries Desktop-size ----------- */
+            /* ---------- media queries Desktop-size ----------- */
+    
+            #Desktop-size{
+                    visibility: hidden;
+                    background-image: none;
+            }     
+            
+
+            
+            .hidden_menu_nav{
+                    visibility: hidden;
+                    
+                }  
+            
+            
+                    
+            @media screen and (max-width: 999px) {
+                
+        
+                
+                /* --- display menu only sup 799px ---*/
+                .hidden_menu_nav{
+                    
+                     
+                     display:none;
+                    
+                }    
+               
+            
+             
+            }
+            @media screen and (min-width: 999px) {
+                
+                #Desktop-size{
+                    visibility: visible;
+                   
+                }
+                
+                /* --- display menu only sup 799px ---*/
+                .hidden_menu_nav{
+                      visibility: hidden;
+                    
+                    
+                }    
+               
+                
+                body{
+                     background-image: url(Elements/Background.png);
+                    
+                }
+             
+            }
+            /*------Transition Final ((CSS) Desktop)------*/
+            
+            
+            /*-----------Mobile-Home (CSS)  -------------*/
+			@font-face {
+				font-family: "Ma Super Fonte";
+				src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+
+			}
+			body,html{
+				overflow: hidden;
+                background-color: transparent;
+				color:#d8b478;
+				height: 100%;
+				font-size: 15px;
+			}
+
+
+
+			body {
+				font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+
+			}
+            
+            /*mobile home in none displayed by default*/
+
+         
+			.btn-mobile-home{
+				width:30%;
+			}
+
+			.competences_mobile_home {
+
+				height: 50px;
+				width: 80px;
+				background-color: transparent;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #d8b478;
+				margin-left: 10px ;
+				margin-top: 10px;
+			}
+             
+			.competences_mobile_home p{
+				margin-top: 15px;	
+			}
+
+			#Images_column_mobile_home img{
+				position: fixed;
+
+			}
+
+			#Image_Container1_mobile_home{
+				position:fixed;
+
+			}
+
+			#Images_column_mobile_home img{
+				position: fixed;
+				/*right:0;*/
+				bottom:0;
+				left:35px;
+				padding:0;
+				width:195px;
+				height: 345px;
+			}
+            
+            /*------------- media queries ---------------*/
+        
+                     
+            @media screen and (min-width: 999px) {
+                
+                #mobile-home{
+                    display: none;
+                 
+                }
+                
+            
+            }
+            
+            @media screen and (max-width: 999px) {
+                
+                #mobile-home{
+                
+                    display: block;
+                    
+                }
+                
+                body{
+                     background-image: url(Elements/Background.png);
+                }
+            }
+            
+            /*----------------- mobile-Home(CSS) ---------------*/
+            
+            /*----------- Menu-Mobile (CSS)(start)---------------*/
+            @font-face {
+				font-family: "Ma Super Fonte";
+				src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+
+			}
+
+			body,html {
+				overflow: hidden;
+				
+			}
+            
+            #Menu_mobile {
+				font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+                background-color: transparent;
+				color:#d8b478;
+                display: none;
+			}
+
+			.btn-mobile-menu {
+				width:100px;
+			}
+
+         
+            /*------------- media queries ---------------*/
+             
+            @media screen and (min-width: 999px) {
+                
+                #Menu_mobile{
+                    display: none;
+                    background-color: transparent;
+                }
+                
+            
+            }
+            
+            
+            @media screen and (max-width: 999px) {
+                
+                #Menu_mobile{
+                    display: block;
+                    background-color: transparent;
+                }
+                
+                body{
+                    background-color: transparent;
+                }
+            }
+            
+            
+            /*----------- Menu-Mobile (CSS) (end)---------------*/      
+            
+            /*------------- Mobile prequel (CSS)-----------*/
+			 
+			body,html{
+				overflow: hidden;
+				
+			}
+
+			body {
+				font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;	
+                color:#d8b478 ;
+                
+			}
+			
+            #mobile-prequel {
+                font-size:30px;
+                
+            }
+
+			#Images_column_mobile_prequel img{
+				position: fixed;
+				bottom:0;
+				left:15%;
+				padding:0;
+				width:195px;
+				height: 345px;
+			}
+
+
+
+			/*center*/
+			#wrapper_responsive {
+				width: 100%;
+				height: auto;
+
+			}
+
+			#wrapper_responsive > div {
+				margin: 40px auto;
+				overflow: hidden;
+				height: 100px;
+				width: 100%;
+				
+			}
+			
+			
+
+			#parent2_mobile_prequel > p {
+				position: absolute;
+				word-wrap: break-word;
+				text-align: center;
+				color: white;
+				/*Transparent*/
+				background-color: transparent;
+			}
+
+
+			#parent2_mobile_prequel {
+				background-color: transparent;
+            
+                
+
+			}
+
+			#parent2_mobile_prequel p {
+				left: 50%;
+				top: 20%;
+				width:100%;
+				padding: 20px;
+				transform: translate(-50%, -50%);
+				color:#d8b478 ;
+			}
+
+		    @font-face {
+				font-family: "Ma Super Fonte";
+				src: url('assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf');
+
+			}
+ 
+            
+            /* media queries */
+                #mobile-prequel{
+                   
+                    display: none;
+                   
+                }     
+   
+            
+            
+            @media screen and (max-width: 699px) {
+                
+                #mobile-prequel{
+                   
+                    display: block;
+                   
+                }
+                
+                body{
+                     background-image: url(Elements/Background_mobile.png);
+                }
+            }
+
+           /*------------- Mobile prequel (CSS)-----------*/
+            
+    
+            
+            .btn:focus{
+                 background-color: red;
+            }
+
+        </style>
+	</head>
+    <body>
+       <div class="container-fluid" id="Desktop-size"> 
+
+                <div class="container-fluid">
+                    <div  class="row">
+                        <div id="Welcome1_transition_final" class="col-xs-12 col-sm-12 col-md-12">
+                            <h1>BIENVENUE DANS MON BOOK</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div  class="row">
+                        <div id="Welcome2_transition_final" class="col-xs-12 col-sm-12 col-md-12">
+                            <h1>BIENVENUE DANS MON BOOK</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div  id="competences1_transition_final" class="container-fluid" style="display: none;opacity: 0.0;">
+                    <div  class="row">
+                        <div  id="ee" class="col-sm-12 col-md-12" >
+                            <h1>DAMIEN BIABIANY</h1>
+                            <h3>DEVELOPPEUR FRONT</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div  class="row" style="margin-left: 0.5%;margin-top: 10%">
+
+                            <!-- 1st column-->
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                                <p class="center" style="margin-top:10px; ">HTML5</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:18px;">
+                                <p class="center" style="margin-top:10px;">CSS3</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:25px;">
+                                <p class="center" style="margin-top:10px;">JS</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                                <p class="center" style="margin-top:10px;">PHP5</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                                <p class="right" style="margin-top:10px;">Jquery</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:15px;">
+                                <p class="center" style="margin-top:10px;">GSAP</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                                    <p class="" style="margin-top:10px; font-size: 80%;">ANGULAR</p>
+                            </div>    
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                                <p class="center" style="margin-top:10px; font-size: 80%;">Bootsrap</p>
+                            </div>
+
+                            <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:15px;">
+                                <p class="center" style="margin-top:10px;">PHP5</p>
+                            </div>
+                    </div>
+
+                    <div  class="row" style="margin-left: 0.5%;margin-top: 5%">
+
+                        <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;">
+                            <p class="center" style="margin-top:10px; font-size: 75%;">PYTHON</p>
+                        </div>
+
+                        <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:15px;">
+                            <p class="center" style="margin-top:10px;">JAVA</p>
+                        </div>
+
+                        <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:25px;">
+                            <p class="center" style="margin-top:10px;">C#</p>
+                        </div>
+
+                        <div  class="col-xs-2 col-sm-2 col-md-2 competences_transition_final" style="margin-right: 2%;padding-left:15px;">
+                            <p class="center" style="margin-top:10px;">C/C++</p>
+                        </div>  
+                    </div>
+
+
+                    <div  class="row" style="margin-top: 10%">
+
+                        <div  class="col-xs-2 col-sm-2 col-md-2">
+                            <button type="button" class="btn bftn-warning btn-inverse" style="border-radius:0;" data-toggle="modal" data-target="#myModal">ME CONTACTER</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="Image_Container_Dekstop_size" class="container-fluid">
+                    <div id="first_row" class="row">
+                        <div id="Images_column_transition_final" class="col-md-8">
+                             <img src="Elements/Subject_blur_plus.png"  class="img-hor" width= 50% height=150% style="display:none;opacity:0;">
+                             <img src="Elements/Subject_blur_plus.png"  width= 50% height=150% style="display:none;opacity:0;">
+                             <img src="Elements/Subject_Home.png"  width= 50% height=150%>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="container-fluid">
+                    <div  class="row">
+                        <div id ="sliding_left" class="col">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="container-fluid">
+                    <div  class="row">
+                            <div id ="sliding_left_transparent" class="col">
+                                <div  id="sliding_content" class="row"  style="margin-top:10%;display: none;margin-left: 5%;opacity: 1">
+                                    <div   class="col-md-12">
+                                        <H1>DAMIEN BIABIANY</H1>
+                                    </div>
+
+                                    <div   class="col-md-12">
+                                        <h4>DEVELOPPEUR FRONT</h4>
+                                    </div>
+
+                                    <div   class="col-md-12" style="margin-top: 3%;">
+                                        <p>Je suis un développeur front web <br>
+                                            actuellement en 2ème année du Bachelor Web<br>
+                                            de l'HETIC .<br>
+                                            Je recherche activement une agence<br>
+                                            dans le cadre d'un contrat professionnel en alternance.<br>
+                                            Cette opportunité me permettra de développer <br>
+                                            une expérience solide au sein d'une équipe<br>
+                                            de professionnelle .Cette étape professionnelle<br> est indispensable
+                                            pour mon plan de carrière .<br>
+                                        </p>
+                                    </div>
+
+                                    <div   class="col-md-12">
+                                        <div   class="row" style="margin-top: 10%;margin-left: 0.5%;">
+                                            <button type="button" onclick="location.href='https://github.com/damienbiabiany'" class="btn btn-warning btn-inverse" style="border-radius:0;width: 8%;"><i class='fa fa-github'></i></button>                                 
+                                            <button type="button" class="btn btn-warning btn-inverse" style="border-radius:0;width: 8%;" data-toggle="modal" data-target="#myModal"><i class='fa fa-envelope'></i></button>
+                                            <button type="button" onclick="location.href='https://www.linkedin.com/in/damien-biabiany-728245150/'" class="btn btn-warning btn-inverse" style="border-radius:0;width: 8%;"><i class='fa fa-linkedin'></i></button>
+                                        </div>
+                                                            
+                                        <div   class="col-sm-6 col-md-3">
+                                            <div   id="bar1" class="row" style="margin-top: 20%;margin-left:3%;width:0%;border-top:solid;border-width: thin">
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                <!-- menu desktop --> 
+                <div class="container-fluid hidden_menu_nav">
+
+                    <ul id="close-nav" class="nav navbar-nav" style="display:none;position: absolute;" >
+                        <li></li>
+                        <li id="menu2" ><a class="closeb">CLOSE</a>
+                    </ul>
+
+                    <ul id="menu-nav"  class="nav navbar-nav" style="position: absolute;">
+                        <li></li>
+                        <li id="menu1"><a class="menub" >MENU</a>
+                    </ul>
+                </div>
+           
+                    
+
+      </div>
+
+        
+      <!-- Trigger the modal with a button -->  
+      <div id="modal-container" class="container">
+          <!-- Trigger the modal with a button -->
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Tèl : 07 61 54 83 37</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Mail : damienbiabiany@yahoo.fr</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+       <!-- mobile home (start)  
+        
+		<div  class="container-fluid"  id ="mobile-home" style="padding-top: 25%;positon:absolute;">
+
+		</div>--> 
+       <!-- mobile home (end) -->  
+        
+        
+       
+       <!-- mobile menu (start) -->  
+       	<div  class="container-fluid" id="Menu_mobile" style="padding-top: 5%;padding: 5%;position:absolute;">
+
+		</div>
+       <!-- mobile menu (end) -->  
+    
+        
+       <!-- mobile prequel (start) -->  
+       <div id="mobile-prequel"  class="container-fluid">
+
+         </div>
+        
+       <!-- mobile prequel (end) -->  
+        
+       <script src="js\Gsap\greensock-js\greensock-js\src\minified\TweenMax.min.js"></script>
+       <script>
+
+                
+         // ##################### TIMELINE desktop  #####################
+
+         //instantiate a TimelineLite for Desktop Only
+         var tl1 = new TimelineLite();
+           
+         var menu_to_close_nav = function () {
+             }
+
+
+         var close_to_menu_nav = function () {
+            }
+
+         var remove_competence = function () {
+            
+               //$("#competences1_transition_final").remove();
+               tl1.to("#competences1_transition_final",0.0,{display:'none'});
+
+         }
+
+         //fade out the welcome message
+         var delay_beginning = 7.0 ;
+         
+         //Desktop Prequel responsive (Welcome mobile)
+         tl1.to('#Welcome1_transition_final,#Welcome2_transition_final', delay_beginning, {opacity:0});
+
+
+         //move the image to the  right with sizing
+         //tl1.to('img', 0.5, {bottom:'0.00%',right:'22%',height:"85%",width:'28%',ease: Power2.easeOut});
+         tl1.to('img', 0.5, {bottom:'0.00%',right:'340px',height:"585px",width:'400px',ease: Power2.easeOut});
+         tl1.to("#competences1_transition_final",1.0,{display:'block',opacity:1.0});
+         //make menu visible
+         tl1.to(".hidden_menu_nav",0.2,{opacity:'1.0',visibility:'visible'});
+
+        
+         // ##################### TIMELINE responsive  mobile  #####################
+           
+        //instantiate a TimelineLite forMobile Only
+        var tl2 = new TimelineLite();
+           
+        //Remove the prequel  mobile 
+        var remove_prequel_mobile = function () {
+            
+               //$("#competences1_transition_final").remove();
+               tl2.to("#mobile-prequel",0.0,{display:'none'});
+
+         }
+           
+        //fade out the welcome message
+        var delay_beginning_mobile = 7.0 ;   
+           
+        //Mobile Prequel responsive (Welcome mobile)
+        $("#mobile-prequel").html(`
+            <div  class="container-fluid">
+                <div class="row">
+                    <div id="Images_column_mobile_prequel" class="col-md-12">
+                        <img src="Elements/Subject_Home.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="wrapper_responsive">
+                <div id="parent2_mobile_prequel">
+                    <p class="Welcome_Responsive">BIENVENUE DANS MON BOOK</p>
+                </div>
+
+            </div>`);
+          
+
+        
+          //Home mobile responsive  injection function 
+          
+          var mobile_home_injection = function (){
+              $("#mobile-home").html(`
+            
+                <div id="Image_Container1_mobile_home" class="container-fluid">
+					<div id="first_row_mobile_home" class="row">
+						<div id="Images_column_mobile_home" class="col-md-8">
+							<img src="Elements/Subject_home.png">
+
+						</div>
+					</div>
+				</div>
+                 
+                <div class="container-fluid">
+                
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h3>DAMIEN BIABIANY</h3>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <p>DEVELOPPEUR FRONT</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div   class="row" style="margin-top: 5%;margin-left: 0.5%;">
+
+                                <div class="col-xs-2 col-sm-2 col-md-2 competences_mobile_home">
+                                    <p class="center">HTML</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">CSS</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">JS</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">Angular</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2 competences_mobile_home">
+                                    <p class="center">HTML</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">CSS</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">JS</p>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-2  competences_mobile_home">
+                                    <p class="center">Angular</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div   class="row" style="margin-top: 10%;margin-left: 25%;">
+
+						<button type="button" class="btn btn-warning btn-inverse btn-mobile-home" style="border-radius:0;">Me contacter</button>
+
+					</div>
+				</div>
+
+			`);
+            
+        }
+           
+          
+        var mobile_menu_injection = function (){
+            
+    
+        $("#Menu_mobile").html(`<div  class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+                    <h2>DAMIEN BIABIANY</h2>
+					<p>DEVELOPPEUR FRONT</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 10%">
+					<p>Je suis un développeur front web <br>
+                                            actuellement en 2ème année du Bachelor Web<br>
+                                            de l'HETIC .<br>
+                                            Je recherche activement une agence<br>
+                                            dans le cadre d'un contrat professionnel en alternance.<br>
+                                            
+				    </p>
+                     <p> ____Compétences___: <br><br>
+                         #HTML5 #CSS3 #BOOTSRAP <br>
+                         #Javascript #JQUERY #GSAP #ANGULAR <br> 
+                         #PHP5 #PYTHON #JAVA #C/C++ <br></p>
+				</div>
+
+
+				<div class="col-xs-12 col-sm-12 col-md-12" style="margin-top: 1%">
+					<div   class="row" style="margin-top: 10%;margin-left: 0.5%;">
+
+						<button type="button" onclick="location.href='https://github.com/damienbiabiany'" class="btn btn-warning btn-inverse btn-mobile-menu" style="border-radius:0;margin-left: 0.5%;margin-top:0.5%;"><i class='fa fa-github'></i></button>
+						
+                        <button type="button" class="btn btn-warning btn-inverse btn-mobile-menu" data-toggle="modal" data-target="#myModal" style="border-radius:0;margin-top:0.5%;margin-left: 0.5%;"><i class='fa fa-envelope'></i></button>
+						
+                        <button type="button" onclick="location.href='https://www.linkedin.com/in/damien-biabiany-728245150/'" class="btn btn-warning btn-inverse btn-mobile-menu" style="border-radius:0;margin-left: 0.5%;margin-top:0.5%;"><i class='fa fa-linkedin'></i></button>
+
+
+
+					</div>
+				</div>
+
+
+			</div>`);
+            
+        }
+            
+            
+        //Transition mobile welcome message
+        tl2.to('.Welcome_Responsive,#mobile-prequel',   delay_beginning_mobile , {opacity:0,onComplete: mobile_menu_injection});
+                 
+        //Remove mobile prequel container
+        tl2.to('.Welcome_Responsive,#mobile-prequel',   0.0 , {onComplete: remove_prequel_mobile});
+           
+          
+        tl2.to('#mobile-home',   0.0 , {onComplete: remove_prequel_mobile });  
+
+
+
+          
+
+         
+        
+        
+        $(".menub").click(function() {
+             
+            
+             
+             //xxxxxxx
+             //tl2.to('#mobile-home',   0.0 , {opacity:0.0 ,visibility:'hidden' ,onComplete: mobile_menu_injection});
+             //tl2.to('#Menu_mobile',   2.0 , {opacity:1.0 ,display:'block'}); 
+            
+             //remove menu nav from viewport
+             tl1.to("#menu-nav",0.0,{display:'none'});
+
+             tl1.to("#competences1_transition_final",0.8,{opacity:0 ,onComplete:remove_competence});
+             tl1.to("#Images_column_transition_final > img:nth-child(1)",0.3,{opacity:1,display:'block',right:'40%',ease: Power2.easeOut});
+             tl1.to("#Images_column_transition_final > img:nth-child(2)",0.3,{opacity:1,display:'block',right:'5%',ease: Power2.easeOut});
+
+             tl1.to("#sliding_left",1.0,{width:"35%", onComplete:menu_to_close_nav});
+             tl1.to("#sliding_content",0.5,{opacity:1.0,display:'block'});
+
+             tl1.to("#bar1",0.2,{width:'100%'});
+
+            //reput close nav from viewport
+             tl1.to("#close-nav",0.0,{display:'block'});
+
+         });
+
+
+        var display_none_img = function () {
+            tl1.to("#Images_column_transition_final > img:nth-child(1),#Images_column_transition_final > img:nth-child(2)",0.0,{opacity:0.0,display:'none'});
+
+
+        }
+
+
+        $(".closeb").on("click",function() {
+                
+                //xxxxxxx
+                //tl2.to('#Menu_mobile',   0.0 , {opacity:0.0 ,visibility:'hidden' ,onComplete:  mobile_home_injection}); 
+                //tl2.to('#mobile-home',   2.0 , {opacity:1.0 ,display:'block',visibility:'visible'}); 
+
+            
+                //remove close nav from viewport
+				tl1.to("#close-nav",0.0,{display:'none'});
+
+                tl1.to("#Images_column_transition_final > img:nth-child(2)",0.5,{opacity:0.0,right:'23%',ease: Power2.easeOut,onComplete:display_none_img });
+                tl1.to("#Images_column_transition_final > img:nth-child(1)",0.5,{opacity:0.0,right:'20%',ease: Power2.easeOut,onComplete:display_none_img });
+
+                tl1.to("#bar1",0.2,{width:'0%'});
+                //remove the sliding left
+                tl1.to("#sliding_content",0.3,{opacity:1.0});
+                tl1.to("#sliding_content",0.0,{display:'none', onComplete:close_to_menu_nav});
+                tl1.to("#sliding_left",0.3,{width:"0%", onComplete:close_to_menu_nav});
+
+                //BACT to competence menu
+                tl1.to("#competences1_transition_final",0.3,{display:'block'});
+                tl1.to("#competences1_transition_final",0.3,{opacity:1.0});
+
+                //reput menu nav from viewport
+			    tl1.to("#menu-nav",0.2,{display:'block'});
+                
+
+
+        });
+
+	</script>
+    </body>
+</html>

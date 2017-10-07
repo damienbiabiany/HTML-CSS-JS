@@ -1,0 +1,457 @@
+<html class="js pointerevents no-touchevents svg" lang=""><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HOME TRANSITION</title>
+
+    <meta name="description" content="Photofolio: Fashion - Portraits - Personal - Nudes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+
+	<!-- <script src="Jquery_slider.js"></script> -->
+	<link rel="stylesheet" href="css/application_Home.css">
+	<link rel="stylesheet" href="css/hover_style.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+		#content {
+			color:white;
+			border:0;
+			margin-top: 20%;
+			text-align: center;
+			font-size:  600%;
+			font-family: SansSerif;
+		}
+
+
+		.c-form__row textarea {
+			padding-top: 0;
+		}
+
+		.home__section{
+			margin-bottom: 0;
+		}
+
+		/*Overwrittng media modal*/
+		@media (min-width: 768px){
+
+			.modal-dialog {
+				/* width: 600px; */
+				/* margin: 30px auto; */
+			}
+
+			.modal-dialog {
+				/* position: relative; */
+				width: auto;
+				/* margin: 10px; */
+			}
+
+
+		}
+
+		/*overlay data css rules */
+		.overlay_work{
+			height:100%;
+			width:100%;
+			position: absolute;
+			background-color: orange;
+			opacity: 0.5;
+		}
+
+		.work_only_visible{
+			height:100%;
+			width:100%;
+			position: absolute;
+		}
+		.center-div
+		{
+			position: absolute;
+			margin: auto;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width: 300px;
+			height: 100px;
+			background-color: #ccc;
+			border-radius: 3px;
+			text-align: center;
+			font-size:400%;
+			color:white;
+		}
+
+		/*form input */
+
+		/*.c-form__input+span{
+			caret-color: red;
+		}*/
+
+		input,textarea {
+			color: red;
+			caret-color: red;
+		}
+
+		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+            color:black;
+			caret-color: red;
+			color:darkseagreen;
+			text-shadow: none;
+			-webkit-text-fill-color: initial;
+		}
+
+        /*logo designer*/
+
+		#logo_designer{
+			position:absolute;
+			width: 200px;
+			height:500px;
+		    background-color: transparent;
+			margin-left: 15%;
+		}
+
+
+		/*image*/
+		#Alvinlogo2{
+			width: 120px;
+			height: 120px;
+			margin-top: 60px;
+
+		}
+
+		#designer_name{
+			margin-top: 150px;
+			position:absolute;
+			margin-left: 15%;
+		}
+
+		@font-face {
+			font-family: "Ma Super Fonte";
+			src: url('assetshome/font/Open_Sans/OpenSans-Bold.ttf');
+		}
+
+		@font-face {
+			font-family: "Ma Super Fonte2";
+			src: url('assetshome/font/Open_Sans/OpenSans-LightItalic.ttf');
+
+		}
+
+
+		body {
+			font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+		}
+
+		#designer_name > h1{
+           color:purple;
+
+		}
+
+		#designer_name > h6{
+			font-family: "Ma Super Fonte2", Helvetica, Arial, sans-serif;
+			color:purple;
+
+
+
+		}
+
+
+		.About_container p {
+			font-family: "Ma Super Fonte2", Helvetica, Arial, sans-serif;
+			color:white;
+
+		}
+
+		.About_container h3 {
+			color:white;
+
+		}
+
+		.o-input-form,.o-value-form {
+			font-size: 1.5rem;
+			font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+
+		}
+
+	</style>
+</head>
+<body class="is-home">
+
+
+        <!-- Trigger the modal with a link -->
+
+
+		<div class="o-body__container" data-state="" data-animation="">
+			
+		<!-- Slider images -->
+			<div id="js-page" class="page-view">
+				<div id="page-home" class="page page-home" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+					<div class="o-page__container home-page__container" data-page="home" style="visibility: inherit; opacity: 1;">
+
+						<!-- HOME SECTION -->
+						<div class="home__section section-h--one">
+
+						</div>
+
+
+						<div class="home__section section-h--two section--image">
+							<div class="img__home--container" data-animation="maskIn" style="visibility: inherit; opacity: 1; clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);">
+								<!-- HERE SLIDESHOW BACKGROUND -->
+								<!-- Slider images  Images goes here-->
+								<div class="img__home" data-animation="imageIn">
+
+								</div><!-- Slider images  Images goes here-->
+							</div>
+
+
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="o-menu-mobile u-hidden--from-l-tablet">
+					<div class="o-mm__cont">
+						<div class="o-mm__voice">
+							<a class="nav__voice o-mm__voice--link" data-attribute="voice-menu"  onClick="window.location.reload()"  style="visibility: inherit; opacity: 1;" >ACCUEIL</a>
+						</div>
+
+						<div class="o-mm__voice">
+							<a class="nav__voice o-mm__voice--link" data-attribute="voice-menu" href="About_mobile.html" style="visibility: inherit; opacity: 1;" >A PROPOS</a>
+						</div>
+						<div class="o-mm__voice">
+							<a class="nav__voice o-mm__voice--link" data-attribute="voice-menu" href="Slider.html"   style="visibility: inherit; opacity: 1;" >PROJET</a>
+						</div>
+
+						<div class="o-mm__voice">
+							<a class="nav__voice o-mm__voice--link" data-attribute="voice-menu" href="Contact_form_mobile.html" style="visibility: inherit; opacity: 1;" >CONTACT</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- footer table tag html5 -->
+				<footer class="c-footer" data-animation="fade-gallery" data-attribute="voice-menu" style="visibility: inherit; opacity: 1;">
+					<div class="o-container">
+						<nav class="c-footer__nav o-wrapper">
+							<div class="nav__voice voice--b-right center u-hidden--until-l-tablet">
+								<a id="Home"  onClick="window.location.reload()" class="nav__voice--link nav__voice--gallery" data-attribute="voice-menu" data-id="home" data-state="" style="visibility: inherit; opacity: 1;">ACCUEIL</a>
+							</div>
+							<div class="nav__voice voice--b-left u-hidden--until-l-tablet">
+								<a id="about"   class="nav__voice--link nav__voice--gallery" data-attribute="voice-menu" data-id="about" data-state="" style="visibility: inherit; opacity: 1;">A PROPOS</a>
+							</div>
+							<div class="nav__voice voice--b-right center u-hidden--until-l-tablet">
+								<a id="Works" href="Slider.html"   class="nav__voice--link nav__voice--gallery" data-attribute="voice-menu" data-id="works" data-state="" style="visibility: inherit; opacity: 1;">PROJET</a>
+							</div>
+							<div class="nav__voice voice--b-right center u-hidden--until-l-tablet">
+								<a id="Contact"  class="nav__voice--link nav__voice--gallery" data-attribute="voice-menu" data-id="contact" data-state="" style="visibility: inherit; opacity: 1;">CONTACT</a>
+							</div>
+
+						</nav>
+					</div>
+				</footer>
+
+
+
+				<!-- Media query information -->
+				<div class="instruction" data-animation="instruction-in">
+					<div class="instruction__cont-image">
+						<div class="instruction__click instruction__image" data-animation="">
+						</div>
+						<div class="instruction__tilt instruction__image" data-animation=""></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="designer_name">
+			<h1>FLEURANTIN</h1>
+			<h6>DIRECTEUR ARTISTIQUE JUNIOR</h6>
+		</div>
+
+        <div id="logo_designer">
+			<img  id="Alvinlogo2" src="assetshome/photos/logo/Alvinlogo2.png">
+
+		</div>
+
+
+
+		<script src="/assets/vendors/modernizr/modernizr.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js'></script>
+
+		<script src="js/Finalslider_slider_clipPath_Polygon.js"></script>
+		<script>
+
+            window.addEventListener("load", function(){
+                var load_screen = document.getElementById("load_screen");
+                document.body.removeChild(load_screen);
+            });
+
+            //########################################## Formular part ################################
+            $( "#Contact" ).click(function() {
+
+
+                /*------------------------- Move the logo ----------------------*/
+                var tl = new TimelineLite();
+                tl.to(["#designer_name,#logo_designer"], 0.5, { top:'-10%',left:'-10%',scale:'0.5', ease:Power1.easeInOut });
+
+
+                var htmlString = $( this ).html();
+                /*$( this ).text( htmlString );*/
+               // $( ".img__home" ).append( document.createElement("div") );
+
+				//Remove all the images
+                $('.img__home img').remove();
+
+                //Remove the formulaire element already there !!!!
+                $('#contact-form').remove();
+
+                //Remove the about container with element already there !!!!
+                $('.About_container').remove();
+
+                //Append a new formulaire
+                $( ".img__home" ).append(`<form id="contact-form" class="c-form u-hidden--until-l-tablet">
+
+                    <div class="c-form__row" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="c-form__voice">
+                    <p class="o-value-form">Prénom &amp; Nom</p>
+                    </div>
+                    <input class="c-form__input o-input-form" name="name" type="text" id="name" placeholder="Qui êtes vous?" autocomplete="off">
+                    <span></span>
+                    </div>
+
+                    <div class="c-form__row" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="c-form__voice">
+                    <p class="o-value-form">Votre mail</p>
+                    </div>
+                    <input class="c-form__input o-input-form" name="name" type="text" id="name" placeholder="Exemple@gmail.com" autocomplete="off">
+                    <span></span>
+                    </div>
+
+                    <div class="c-form__row" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="c-form__voice">
+                    <p class="o-value-form">Telephone</p>
+                    </div>
+                    <input class="c-form__input o-input-form" name="name" type="text" id="name" placeholder="Numéro de téléphone" autocomplete="off">
+                    <span></span>
+                    </div>
+
+
+					 <div class="c-form__row" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+								<div class="c-form__voice">
+									<p class="o-value-form">Votre message</p>
+								</div>
+								<textarea class="c-form__input o-input-form" name="text" rows="8" placeholder="Votre message ici" id="message"></textarea>
+								<span></span>
+					 </div>
+
+
+					<div class="c-form__row" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+									<div class="c-checkbox">
+										<!-- <div class="o-checkbox__item o-value-form">
+										</div> -->
+										<div class="o-checkbox__item c-checkbox__square">
+											<input id="privacy-check" type="checkbox" value="" autocomplete="off">
+											<label for="privacy-check"></label>
+											<span class="o-value-form">Accept privacy</span>
+										</div>
+										<div class="o-checkbox__item">
+											<button id="submit-mail" data-attribute="underline">
+												<span class="o-link o-value-form" data-hover="Send mail">SEND</span>
+											</button>
+										</div>
+									</div>
+								</div>
+
+                    </form>`);
+                //TEST WOTH ORANGE DIV
+                //$( ".img__home" ).append("<div style='width:660;height:400;background-color: orange'></div>");
+
+            });
+            //#########################################Works #############################
+            /*$( "#Works" ).click(function() {
+
+                //Remove all overlay divs before
+                $('.overlay_work,.work_only_visible').remove();
+
+                //append the two overlay on click
+                $( "body" ).append(`<div class ="overlay_work"></div>
+                                    <div  class ="work_only_visible">
+                                              <div class ="center-div"><p>WORKS</p></div>
+								    </div>`);
+
+
+            });*/
+
+
+            /*About */
+            var ImagesrcAboutMe = "assetshome//photos//avatar.jpg";
+
+            $( "#about" ).click(function() {
+                //alert("about")
+                //Remove all the images
+                $('.img__home img').remove();
+
+                //Remove the formulaire element already there !!!!
+                $('#contact-form').remove();
+
+                //Remove the about container with element already there !!!!
+                $('.About_container').remove();
+
+
+                $( ".img__home" ).append(`<div class ="About_container container" style="position: absolute;" >
+                                               <div class="row" style="position:absolute;">
+                                               		<img src="assetshome/photos/fond_about.jpg" width="80%" height="110%">
+
+                                               </div>
+											   <div class ="row"  style="margin-left: 25%;background-color: transparent;">
+												   <div class="col-md-3" style="margin-top:5%;background-color: transparent;">
+													   <h3> Qui?</h3>
+													   <p> Motion designer, </p>
+													   <p> Webdesigner,Graphiste </p>
+												   </div>
+													<div class="col-md-3" style="margin-top:5%;background-color: transparent;">
+													   <h3>Quelle école ?</h3>
+													   <p> L'école multimédia</p>
+												   </div>
+											   </div>
+
+											    <div class ="row" style="margin-left: 25%">
+												   <div class="col-md-3" style="margin-top:2%;background-color: transparent;">
+													   <h3> Où ?</h3>
+													   <p> Eaubonne(95)</p>
+												   </div>
+													<div class="col-md-3" style="margin-top:2%;background-color: transparent;">
+													   <h3> Diplômes:</h3>
+													   <p> A venir </p>
+												   </div>
+											   </div>
+
+											    <div class ="row" style="margin-left: 25%" >
+												   <div class="col-md-3" style="margin-top:2%;background-color: transparent;">
+													   <h3> Passions:</h3>
+													   <p> Football,Culture Urbaine </p>
+												   </div>
+													<div class="col-md-3" style="margin-top:2%;background-color: transparent;">
+													   <h3> Entreprise :</h3>
+													   <p> 1min30</p>
+												   </div>
+											   </div>
+								    </div>`);
+
+            });
+
+
+		</script>
+
+    
+
+	</body>
+
+</html>

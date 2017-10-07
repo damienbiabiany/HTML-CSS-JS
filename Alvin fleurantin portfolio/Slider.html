@@ -1,0 +1,193 @@
+<html class=" no-touchevents">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style_slider.css">
+        <!-- <link rel="stylesheet" href="css/style_parallax_content.css">-->
+        <link rel="stylesheet" href="css/style_slider_project.css">
+
+
+        <!-- local links -->
+        <script src="js/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- CDN links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <style>
+
+
+            @font-face {
+                font-family: "Ma Super Fonte";
+                src: url('assetshome/font/Open_Sans/OpenSans-Bold.ttf');
+            }
+
+            body {
+                font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+            }
+
+            /* On small screens, set height to 'auto' for the grid */
+            @media screen and (max-width: 767px) {
+                .row.content {height: auto;}
+            }
+
+            .article_container,.article_container2{
+                transform: matrix(1, 0, 0, 1, 0, 0);
+
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                width: 80vw;
+                height: 80%;
+                box-shadow: 5px 19px 38px rgba(0,0,0,.3), 0 1px 12px rgba(0,0,0,.22);
+                background: #272727;
+
+                /*add a vertical scrollbar to my div automatically?*/
+                float:left;
+
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+
+
+
+
+            footer {
+                height: 50px;
+                margin-top: -50px;
+                color:white;
+            }
+
+
+
+            /*Change the height and width to max-height and max-width. The image won't be any bigger than it's parent.*/
+
+
+
+            p,h1,h2,h3{
+                -o-user-select: none;
+                user-select: none;
+            }
+
+            body{
+                cursor: default;
+                overflow-y: auto;
+            }
+
+            /*############################ SCROLLBAR #######################*/
+            /*width of the scrollbar*/
+            ::-webkit-scrollbar {
+                width: 2px;
+                height: 10px;
+            }
+
+            ::-webkit-scrollbar-button {
+                width: 0px;
+                height: 0px;
+                top:0px;
+            }
+            /*same color(by default)*/
+            ::-webkit-scrollbar-thumb {
+                background: #f4c134;
+                border: 0px none #ffffff;
+                border-radius: 0px;
+            }
+            /*same color(on hover)*/
+            ::-webkit-scrollbar-thumb:hover {
+                background: #f4c134;
+            }
+            /*same color (on click)*/
+            ::-webkit-scrollbar-thumb:active {
+                background: #f4c134;
+            }
+            ::-webkit-scrollbar-track {
+                background: transparent;
+                border: 0px none #ffffff;
+                border-radius: 0px;
+            }
+            ::-webkit-scrollbar-track:hover {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-track:active {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-corner {
+                background: transparent;
+            }
+
+            body{
+                /* stop-highlighting-of-a-X-element-when-double-clicking-on (text) */
+                -o-user-select: none;
+                user-select: none;
+                /*gif background*/
+                background-image: url(assetshome/photos/gifhomev2.gif);
+                background-size: cover;
+
+
+            }
+
+
+
+            /*P1*/
+
+            h1 {
+                font-weight: bold;
+                font-size: 80px;
+                margin-bottom: 0;
+                margin-top: 2%;
+            }
+
+        </style>
+        <script src="js/app_transition_loading_project.js"></script>
+        <link rel="stylesheet" href="css/style_slider_project.css">
+        <!--<script src="js/app_transition.js"></script>-->
+    </head>
+        <body>
+
+        <header>
+            <a data-v-5ab1ab80="" href="Home.html" class="back-link">close</a>
+
+        </header>
+            <div  class="article_container2 empty"></div>
+
+            <div id="Project" class="article_container"></div>
+
+
+
+
+            <footer data-pagination>
+                <a href=# disabled><i class=ion-chevron-left></i></a>
+                <ul>
+                    <li class=current id="Page1"  data-page="1" ><a  href=#1></a></li>
+                    <li id="Page2" data-page="2" ><a  href=#2></a></li>
+                    <li id="Page3" data-page="3" ><a  href=#3></a></li>
+                    <li id="Page4" data-page="4" ><a href=#4></a></li>
+                    <li id="Page5" data-page="5" ><a  href=#5></a></li>
+                </ul>
+
+
+                <a href=#2><i class=ion-chevron-right></i></a>
+            </footer>
+
+            <div id="next">
+                <span data-v-5ab1ab80="">next</span>
+            </div>
+            <div id="prev">
+                <span data-v-5ab1ab80="">prev</span>
+            </div>
+
+
+
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
+            <script src='js/app_transition_loading_project.js'></script>
+            <script src="js/app_parrallax.js"></script>
+            </body>
+	
+</html>

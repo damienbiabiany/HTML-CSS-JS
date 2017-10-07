@@ -1,0 +1,31 @@
+a.izdadcha {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 40px;
+  line-height: 46px;
+  padding: 0 0 6px;
+}
+
+.nav__voice [data-attribute=voice-menu]::before{
+/* a.izdadcha:after { */
+  content: "";
+  position: absolute;
+  /* bottom is in the middle  of the div*/
+  bottom: 45%;
+  opacity:0.5;
+  left: 0%;
+  width: 0%;
+  height: 10px;
+  background: red;
+  /* transition: left .8s; */
+  /* animate the width  */
+   transition: width .2s;
+}
+
+.nav__voice [data-attribute=voice-menu]::hover:after {
+  left: 0;
+  background: #333;
+}

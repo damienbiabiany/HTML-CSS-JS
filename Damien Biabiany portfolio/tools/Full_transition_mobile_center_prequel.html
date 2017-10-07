@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FFF_mobile</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Responsive-->
+		<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+		<style>
+
+
+			#mobile_prequel,html{
+				overflow: hidden;
+				background-image: url(Elements/Background_mobile.png);
+			}
+
+			#Images_column img{
+				position: fixed;
+				/*right:0;*/
+				bottom:0;
+				left:15%;
+				padding:0;
+				width:75%;
+				height: 45%;
+			}
+
+			.container-fluid{
+				position:absolute;
+			}
+
+
+			/*center*/
+			#wrapper {
+				width: 100%;
+				height: auto;
+			}
+
+			#wrapper > div {
+				margin: 40px auto;
+				overflow: hidden;
+				position: relative;
+				height: 100px;
+				width: 50%;
+			}
+
+			p {
+				position: absolute;
+				word-wrap: break-word;
+				text-align: center;
+				color: white;
+				background-color: rgba(0,0,0,0.5);
+			}
+
+			#parent1 {
+				background-color: orange;
+			}
+
+			#parent1 p {
+				top: 10px;
+				bottom: 10px;
+				left: 10px;
+				right: 10px;
+				height: auto;
+				width: auto;
+				padding-top: 30px; /* Parent1's height * 0.5 = parent1 p's padding-top (Adjust to make look more centered) */
+			}
+
+			#parent2 {
+				background-color: skyblue;
+
+			}
+
+			#parent2 p {
+				left: 50%;
+				top: 50%;
+				padding: 10px;
+				transform: translate(-50%, -50%);
+			}
+
+			#parent3 {
+				background-color: hotpink;
+			}
+
+			#parent3 p {
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+				width: 100%;
+			}
+
+            /* media queries */
+            #mobile_prequel{
+                    visibility: hidden;
+                }     
+            
+            @media screen and (min-width: 999px) {
+                
+                #mobile_prequel{
+                    visibility: visible;
+                }
+            }
+		</style>
+	</head>
+    <body id="mobile_prequel">
+
+
+		<div id="Image_Container1" class="container-fluid">
+			<div id="first_row" class="row">
+				<div id="Images_column" class="col-md-12">
+					<img src="Elements/Subject_Home.png"  width= 50% height=150%>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="wrapper">
+			<div id="parent1">
+				<p>Center Method 1</p>
+			</div>
+			<div id="parent2">
+				<p>Center Method 2</p>
+			</div>
+			<div id="parent3">
+				<p>Center Method 3</p>
+			</div>
+		</div>
+
+		<script src="js\Gsap\greensock-js\greensock-js\src\minified\TweenMax.min.js"></script>
+	<script>
+
+
+
+	</script>
+    </body>
+</html>
